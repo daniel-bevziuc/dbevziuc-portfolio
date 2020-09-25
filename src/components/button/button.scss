@@ -1,0 +1,30 @@
+.button {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 156.19%;
+  padding: 7px;
+  color: rgb(94, 94, 94);
+  letter-spacing: 0.03em;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-image: initial;
+  border-bottom: 1px solid rgb(94, 94, 94);
+  text-align: center;
+  transition: all 0.2s ease 0s;
+  cursor: pointer;
+  z-index: 99;
+  position: relative;
+  outline: none;
+
+  &:hover {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid white;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 10px;
+  }
+}
